@@ -1,0 +1,8 @@
+.order-page{
+    font-size: 1.4rem;
+}
+
+.img-order{
+    height: 160px !important;
+    object-fit: contain !important;
+}

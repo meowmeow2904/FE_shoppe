@@ -1,0 +1,97 @@
+<div class="row sm-gutter content-product" id="content-product">
+</div>
+<!-- Phân trang -->
+<div>
+    <ul class="pagination home-product__pagination" id="pagination">
+    </ul>
+</div>
+<!-- Modal Confirm Delete -->
+<div class="modal" id="modalConfirmDelete" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Modal title</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body base-font">
+                <input type="hidden" id="productIdDelete" name="id">
+                <p>Bạn có muốn xoá dữ liệu?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger base-font" onclick="deleteProduct()">Xoá</button>
+                <button type="button" class="btn btn-secondary base-font" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal HTML -->
+<div id="modalProduct" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content base-font">
+
+            <!-- Header của modal -->
+            <div class="modal-header">
+                <h2 class="modal-title" id="headerFormAccount">Update Sản Phẩm</h2>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Body của modal -->
+            <div class="modal-body">
+
+                <form action="/action_page.php">
+                    <div class="modal-container">
+
+                        <input type="hidden" id="productId" name="id">
+
+                        <div class="form-group-lg">
+                            <label for="username"><b>Tên sảnn phẩm </b></label>
+                            <input type="text" class="form-control-lg mb-3" placeholder="Nhập tên sảnn phẩm"
+                                name="Nhập tên sản phẩm" style="font-size: 1,4rem;" id="productName" required>
+
+                            <label for="image">Ảnh sản phẩm</label>
+                            <!-- <input type="file" accept="image/png, image/gif, image/jpeg" class="form-control-file mb-3 d-inline" id="image"> -->
+                            <input type="text" class="form-control-lg mb-3" placeholder="Nhập link ảnh"
+                                name="Nhập tên sản phẩm" style="font-size: 1,4rem;" id="imageProduct" required>
+
+                            <label for="price"><b>Giá </b></label>
+                            <input type="number" class="form-control-lg mb-3" placeholder="Nhập giá sản phẩm"
+                                name="price" id="priceProduct" required>
+
+                            <label for="status"><b>Tình trạng sản phẩm</b></label>
+                            <select class="form-control-lg mb-3" name="status" id="statusProduct">
+                                <option value="NEW">Mới</option>
+                                <option value="OLD">Cũ</option>
+                            </select>
+
+                            <label for="shippingUnit"><b>Đơn vị vận chuyển</b></label>
+                            <select class="form-control-lg mb-3" name="shippingUnit" id="shippingUnitProduct">
+                                <option value="EXPRESS">Vận chuyển hoả tốc</option>
+                                <option value="FAST">Vận chuyển nhanh</option>
+                                <option value="SAVE">Vận chuyển tiết kiệm</option>
+                            </select>
+
+                            <label for="type"><b>Loại sản phẩm</b></label>
+                            <select class="form-control-lg mb-3" name="type" id="typeProduct">
+                                <option value="PHONE">Điện thoại</option>
+                                <option value="COMPUTER">Máy tính</option>
+                                <option value="CLOTHES">Quần áo</option>
+                                <option value="FOOT_WEAR">Giày dép</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary base-font" data-dismiss="modal"
+                    id="cancel">Cancel</button>
+                <button type="button" class="btn base-shoppe-bg base-font" onclick="saveProduct()">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/assets/js/product.js"></script>

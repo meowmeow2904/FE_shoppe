@@ -1,0 +1,77 @@
+<div class="container-fluid order-page bg-white">
+    <nav class="nav nav-pills nav-justified">
+        <li class="nav-item">
+            <a class="nav-link pl-5 pr-5 active base-shoppe-bg" id="order-all" href="#" onclick="orderPageAll()">Tất cả</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link pl-5 pr-5 text-dark" id="order-pending" href="#" onclick="orderPagePending()">Chờ thanh toán</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link pl-5 pr-5 text-dark" id="order-done" href="#" onclick="orderPageDone()">Đã thanh toán</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link pl-5 pr-5 text-dark" id="order-cancel" href="#" onclick="orderPageCancel()">Đã huỷ</a>
+        </li>
+        </ul>
+</div>
+
+<div class="containner mt-5 order-page w-100 pl-5 pr-5" id="order-item">
+    <!-- ----------------------- 1 item ----------------------- -->
+    <!-- <div class="row border-bottom mb-3 bg-white">
+        <div class="col-3 center-block text-center">
+            <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-3.jpg" 
+            class="img-fluid img-thumbnail img-order " alt="Sheep">
+        </div>
+        <div class="col-5 d-flex justify-conten-start align-items-center">
+            <div class="">
+                <h4 class="p-2"><b>Iphne 14 promax</b></h4>
+                <div class="p-2">Số lượng: 4</div>
+                <div class="p-2">Giá sản phẩm: 31.000.000 đ</div>
+                <div class="p-2">Ngày order: 31/02/2023</div>
+            </div>
+        </div>
+        <div class="col-4 d-flex justify-conten-start align-items-center">
+            <div class="">
+                <h4 class="color-shoppe p-2"><b>Thành tiền: 124.000.000 đ</b></h4>
+                <div class="p-2 status-order">
+                    Trạng thái: Chờ thanh toán
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- ----------------------- 1 item ----------------------- -->
+    <!-- <div class="row border-bottom mb-3 bg-white">
+        <div class="col-3 center-block text-center">
+            <img src="https://clickbuy.com.vn/uploads/2022/10/avt-iphone-14-pro-tim.png" 
+            class="img-fluid img-thumbnail img-order " alt="Sheep">
+        </div>
+        <div class="col-5 d-flex justify-conten-start align-items-center">
+            <div class="">
+                <h4 class="p-2"><b>Iphne 14 promax</b></h4>
+                <div class="p-2">Số lượng: 4</div>
+                <div class="p-2">Giá sản phẩm: 31.000.000 đ</div>
+                <div class="p-2">Ngày order: 31/02/2023</div>
+            </div>
+        </div>
+        <div class="col-4 d-flex justify-conten-start align-items-center">
+            <div class="">
+                <h4 class="color-shoppe p-2"><b>Thành tiền: 124.000.000 đ</b></h4>
+                <div class="p-2 status-order">
+                    Trạng thái: Chờ thanh toán
+                </div>            
+            </div>
+        </div>
+    </div> -->
+
+       
+</div>
+<div class=" w-100 pl-5 pr-5">
+<!-- Phân trang -->
+<div id="pagination"></div>
+    </div>
+
+
+
+
+<script src="/assets/js/order.js"></script>

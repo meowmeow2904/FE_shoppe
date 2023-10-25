@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "username": "ADMIN",
+    "role": "ADMIN",
+    "password": "123456",
+    "dateOfBirth": "2023-01-31T17:00:00.000+00:00",
+    "address": null,
+    "fullName": "vũ văn ước ước",
+    "phoneNumber": "+84377106297",
+    "email": "vanuoc9xhy@gmail.com",
+    "facebook": null,
+    "information": null
+  },
+  {
+    "id": 2,
+    "username": "MANAGER",
+    "role": "MANAGER",
+    "password": "123456",
+    "dateOfBirth": "2023-02-03T17:00:00.000+00:00",
+    "address": null,
+    "fullName": "vũ văn ước ước",
+    "phoneNumber": "+84377106297",
+    "email": "vanuoc9xhy@gmail.com",
+    "facebook": null,
+    "information": null
+  }
+]

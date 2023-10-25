@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Animated Login Form</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/login.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- CSS only -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<!-- Alert Success -->
+	<div class="alert alert-danger fixed-top base-font p-4" id="login-failse-alert" style="margin-top: 60px; margin-left:60% ; display: none;">
+		<button type="button" class="close" data-dismiss="alert">x</button>
+		<strong id="text-su">Success! </strong>
+	</div>
+	<img class="wave" src="./assets/img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="./assets/img/bg.svg"> 	
+		</div>
+		<div class="login-content">
+			<form action="index.html">
+				<img src="./assets/img/avatar.svg">
+				<h2 class="title">Đăng ký tài khoản</h2>
+				<div class="input-div one">
+					<div class="i">
+						<i class="fas fa-user"></i>
+					</div>
+					<div class="div">
+						<!-- <h5>Username</h5> -->
+						<input type="text" id="username-su" class="input" placeholder="Username">
+					</div>
+				</div>
+				<div class="input-div pass">
+					<div class="i">
+						<i class="fas fa-lock"></i>
+					</div>
+					<div class="div">
+						<!-- <h5>Password</h5> -->
+						<input type="password" id="password-su" class="input" placeholder="Password">
+					</div>
+				</div>
+
+				<div class="input-div one">
+					<div class="i">
+						<i class="fas fa-user"></i>
+					</div>
+					<div class="div">
+						<input type="text" id="fullName-su" class="input" placeholder="Tên đầy đủ">
+					</div>
+				</div>
+
+				<div class="input-div one">
+					<div class="i">
+						<i class="fas fa-calendar-alt"></i>
+					</div>
+					<div class="div">
+						<input type="date" id="dateOfBirth-su" class="input" placeholder="Ngày sinh">
+					</div>
+				</div>
+
+				<div class="input-div one">
+					<div class="i">
+						<i class="fas fa-phone"></i>
+					</div>
+					<div class="div">
+						<input type="text" id="phoneNumber-su" class="input" placeholder="Số điện thoại">
+					</div>
+				</div>
+
+				<div class="input-div one">
+					<div class="i">
+						<i class="fas fa-envelope"></i>
+					</div>
+					<div class="div">
+						<input id="avatar-su" class="input" placeholder="Avatar">
+					</div>
+				</div>
+
+				<!-- <input type="submit" class="btn" value="Đăng ký"> -->
+				<button class="btn" onclick="signUp()">Đăng ký</button>
+				<p>Bạn đã có tài khoản? </p><a class="btn" href="/login.html"> Login </a>
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
+
+<script src="/assets/js/login.js"></script>

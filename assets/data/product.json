@@ -1,0 +1,83 @@
+{
+    "content": [
+        {
+            "id": 10,
+            "name": " Áo Khoác Da Lộn Chần Bông 16223",
+            "image": "https://product.hstatic.net/200000201725/product/1622bc_d07f948893a64053baeede025379df9a_master.jpg",
+            "price": 800000,
+            "status": "NEW",
+            "shippingUnit": "EXPRESS",
+            "type": "CLOTHES"
+        },
+        {
+            "id": 11,
+            "name": " Áo Khoác Nhung Lót Lông Cừu Coudouroy Best Fashion 1621",
+            "image": "https://product.hstatic.net/200000201725/product/1621gc_d0e3d99a719e46e2bf3cf37e3873ea0e_master.jpg",
+            "price": 755000,
+            "status": "NEW",
+            "shippingUnit": "FAST",
+            "type": "CLOTHES"
+        },
+        {
+            "id": 12,
+            "name": "Tên 1234",
+            "image": "https://product.hstatic.net/200000201725/product/1618bc_68396fd96691400cb3d99b3f89f50c65_master.jpg",
+            "price": 799000,
+            "status": "NEW",
+            "shippingUnit": "EXPRESS",
+            "type": "CLOTHES"
+        },
+        {
+            "id": 13,
+            "name": "Điện thoại iphone 14 pro max 5",
+            "image": "https://product.hstatic.net/200000201725/product/3_d531e7b2e6f54c60817eb159e7f220de_master.jpg",
+            "price": 200000,
+            "status": "NEW",
+            "shippingUnit": "EXPRESS",
+            "type": "CLOTHES"
+        },
+        {
+            "id": 14,
+            "name": "Quần bòbòbò",
+            "image": "https://product.hstatic.net/200000201725/product/_nik4616_693138ea5daf44c78e80e72bed4e7186_master.jpg",
+            "price": 100000,
+            "status": "NEW",
+            "shippingUnit": "EXPRESS",
+            "type": "CLOTHES"
+        },
+        {
+            "id": 16,
+            "name": "Test 2",
+            "image": "https://clickbuy.com.vn/uploads/2022/10/avt-iphone-14-pro-tim.png",
+            "price": 1122,
+            "status": "OLD",
+            "shippingUnit": "SAVE",
+            "type": "PHONE"
+        }
+    ],
+    "pageable": {
+        "sort": {
+            "sorted": true,
+            "unsorted": false,
+            "empty": false
+        },
+        "pageNumber": 0,
+        "pageSize": 6,
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+    },
+    "totalPages": 3,
+    "totalElements": 15,
+    "last": false,
+    "numberOfElements": 6,
+    "sort": {
+        "sorted": true,
+        "unsorted": false,
+        "empty": false
+    },
+    "number": 0,
+    "first": true,
+    "size": 6,
+    "empty": false
+}
